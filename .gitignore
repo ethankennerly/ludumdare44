@@ -34,3 +34,7 @@ sysinfo.txt
 # Builds
 *.apk
 *.unitypackage
+
+# WordLink CrossyWord
+LudumDare44/Assets/WordLink
+LudumDare44/Assets/WordLink.meta
