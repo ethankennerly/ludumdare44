@@ -1,4 +1,4 @@
-# Wordcaster
+# Wordspeller
 
 Game jam. From April 15 - April 28.
 
