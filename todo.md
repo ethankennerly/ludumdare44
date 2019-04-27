@@ -9,6 +9,7 @@
 1. Layout letter pan.
 1. Layout word grid.
 1. Layout how to play.
+1. Layout already found.
 1. Layout extra words.
 1. Layout level complete.
 1. Layout level select.
