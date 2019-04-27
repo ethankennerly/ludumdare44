@@ -1,16 +1,16 @@
-﻿using System.Collections;
-using System.Collections.Generic;
+﻿using FineGameDesign.UI;
 using UnityEngine;
 using UnityEngine.UI;
 
-public class MapController : BaseController {
-    public ScrollRect scrollRect;
-    public Transform levelContent;
+public class MapController : BaseController
+{
+    [SerializeField]
+    private ScrollRect m_ScrollRect;
 
     protected override void Start()
     {
         base.Start();
 
-        CUtils.ShowChildInScrollView(scrollRect, Prefs.UnlockedLevel, levelContent);
+        ScrollRectSnapper.SnapToChild(m_ScrollRect, Prefs.UnlockedLevel);
     }
 }

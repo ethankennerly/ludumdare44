@@ -7,22 +7,23 @@
 1. How to play fits safe area.
 1. Pause dialog fits safe area.
 1. Pause Dialog: Fits help, music, sound.
-
-# TODO
-
 1. Win Dialog: Fits safe area.
 1. Map: Fits safe area.
 1. Map: Scrolls to current level.
+
+# TODO
+
+1. Map: Vertical layout group.
 1. All screens: 10:22 safe area and 3:4 max area.
-1. Letterbox WebGL fullscreen 22:10.
+1. All screens: Letterbox WebGL fullscreen 22:10.
 1. Home: Layout title.
 1. Replace letter UI Text with Text Mesh Pro.
-1. Align letter tap area to image size.
-1. Align letter to image size.
-1. Replace images.
-1. Replace music and sounds.
-1. Scroll downwards.
-1. Read letter per level unlocked.
+1. Letter: Align letter tap area to image size.
+1. Letter: Align letter to image size.
+1. Replace with Toby's images.
+1. Replace with Helene's music and sounds.
+1. Map: Scroll downwards.
+1. Map: Read letter per level unlocked.
 1. Build Android and WebGL.
 1. Upload to finegamedesign.com/wordbinder
 1. Submit to Ludum Dare.
