@@ -5,10 +5,11 @@
 1. Layout letter pan fits [140x240 safe area](art.md).
 1. Layout word region to level 720 "simply".
 1. How to play fits safe area.
+1. Pause dialog fits safe area.
 
 # TODO
 
-1. Pause fits safe area.
+1. Pause dialog shows help, music, sound.
 1. Layout already found.
 1. Layout extra words.
 1. Layout level complete.
