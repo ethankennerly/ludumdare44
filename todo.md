@@ -14,15 +14,16 @@
 1. Map: Scroll downwards.
 1. Level Button: Replace UI Text with Text Mesh Pro.
 1. Text Preview: Fits safe area.
-
-# TODO
-
 1. All screens: 10:22 safe area and 3:4 max area.
 1. All screens: Letterbox WebGL fullscreen 22:10.
 1. Home: Layout title.
+
+# TODO
+
 1. Letter: Replace UI Text with Text Mesh Pro.
 1. Letter: Align letter tap area to image size.
 1. Letter: Align letter to image size.
+1. Word Region: Replace UI Text with Text Mesh Pro.
 1. Replace with Toby's images.
 1. Replace with Helene's music and sounds.
 1. Map: Convert text and offset to array of letter positions.
@@ -37,10 +38,11 @@
 
 # Nice to have
 
+1. Score.
 1. Layout extra word dialog.
 1. Layout already found.
+1. Extra words: already found.
 1. Revise level select text.
-1. Score.
 1. 200 thematic levels.
 1. Compliments reveal words from level.
 1. Shuffle.
@@ -53,6 +55,7 @@
 1. Three words revealed on level complete.
 1. Fly letters one at a time.
 1. Pool level select nodes.
+1. Level 159 accepts axe.
 1. Extra words from word tournament dictionary.
 1. First level is GO.
 1. Reduce screen resolution to about 240x320.

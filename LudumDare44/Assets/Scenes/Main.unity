@@ -2801,16 +2801,6 @@ PrefabInstance:
       propertyPath: m_Pivot.y
       value: 0.5
       objectReference: {fileID: 0}
-    - target: {fileID: 7352998851104318968, guid: edc8502d40a68854fa847f75f58a6450,
-        type: 3}
-      propertyPath: m_AnchoredPosition.x
-      value: 1.4000015
-      objectReference: {fileID: 0}
-    - target: {fileID: 7352998851104318968, guid: edc8502d40a68854fa847f75f58a6450,
-        type: 3}
-      propertyPath: m_AnchoredPosition.y
-      value: 1.800003
-      objectReference: {fileID: 0}
     - target: {fileID: 7352998851104318969, guid: edc8502d40a68854fa847f75f58a6450,
         type: 3}
       propertyPath: textPreview
@@ -2821,10 +2811,5 @@ PrefabInstance:
       propertyPath: compliment
       value: 
       objectReference: {fileID: 521297977}
-    - target: {fileID: 7352998851104318969, guid: edc8502d40a68854fa847f75f58a6450,
-        type: 3}
-      propertyPath: rootCanvas
-      value: 
-      objectReference: {fileID: 597355497}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: edc8502d40a68854fa847f75f58a6450, type: 3}
