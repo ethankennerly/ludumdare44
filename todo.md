@@ -18,14 +18,15 @@
 1. All screens: Letterbox WebGL fullscreen 22:10.
 1. Home: Layout title.
 1. Letter: Replace UI Text with Text Mesh Pro.
+1. Letter: Align letter to image size.
+1. Word Region: Replace UI Text with Text Mesh Pro.
 1. Line Drawer: Letter Radius: Approx image size.
+1. Main 0 music: Configures Helene's draft 2.
 
 # TODO
 
-1. Letter: Align letter to image size.
-1. Word Region: Replace UI Text with Text Mesh Pro.
-1. Replace with Toby's images.
-1. Replace with Helene's music and sounds.
+1. Toby: Send sprites to replace.
+1. Helene: Send music and sounds.
 1. Map: Convert text and offset to array of letter positions.
 1. Map: Spawn levels at letter positions.
 1. Map: For completed levels, reveal letters.
