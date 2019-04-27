@@ -10,16 +10,17 @@
 
 # TODO
 
-1. Layout already found.
-1. Layout extra words.
-1. Layout level complete.
-1. Layout level select.
-1. Layout 10:22 safe area to 3:4 max area.
+1. Win Dialog: Fits safe area.
+1. Map: Fits safe area.
+1. Map: Scrolls to current level.
+1. All screens: 10:22 safe area and 3:4 max area.
 1. Letterbox WebGL fullscreen 22:10.
-1. Layout title.
+1. Home: Layout title.
+1. Replace letter UI Text with Text Mesh Pro.
+1. Align letter tap area to image size.
+1. Align letter to image size.
 1. Replace images.
 1. Replace music and sounds.
-1. Replace UI Text with Text Mesh Pro.
 1. Scroll downwards.
 1. Read letter per level unlocked.
 1. Build Android and WebGL.
@@ -30,6 +31,8 @@
 
 # Nice to have
 
+1. Layout extra word dialog.
+1. Layout already found.
 1. Revise level select text.
 1. Score.
 1. 200 thematic levels.
