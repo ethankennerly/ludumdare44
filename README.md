@@ -1,4 +1,4 @@
-# Wordspeller
+# Wordbinder
 
 Game jam. From April 15 - April 28.
 
@@ -10,6 +10,7 @@ Game jam. From April 15 - April 28.
 
 - [art](art.md)
 - [engineering](engineering.md)
+- [todo](todo.md)
 
 ## Tools
 
