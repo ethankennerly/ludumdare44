@@ -8,6 +8,7 @@
 # TODO
 
 1. Layout how to play.
+1. Layout pause.
 1. Layout already found.
 1. Layout extra words.
 1. Layout level complete.

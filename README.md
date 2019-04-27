@@ -5,6 +5,7 @@ Game jam. From April 15 - April 28. For Ludum Dare 44.
 ## Credits
 - Artist: Toby Hefflin
 - Musician: Helene Choyer
+- Font: [Alkhemikal by Font End Dev](https://fontenddev.com/fonts/alkhemikal/)
 - Template: [Crossy Word by Phuong Dong Tran](#tools)
 - Producer: Ethan Kennerly
 
