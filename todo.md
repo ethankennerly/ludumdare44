@@ -17,11 +17,11 @@
 1. All screens: 10:22 safe area and 3:4 max area.
 1. All screens: Letterbox WebGL fullscreen 22:10.
 1. Home: Layout title.
+1. Letter: Replace UI Text with Text Mesh Pro.
+1. Line Drawer: Letter Radius: Approx image size.
 
 # TODO
 
-1. Letter: Replace UI Text with Text Mesh Pro.
-1. Letter: Align letter tap area to image size.
 1. Letter: Align letter to image size.
 1. Word Region: Replace UI Text with Text Mesh Pro.
 1. Replace with Toby's images.
