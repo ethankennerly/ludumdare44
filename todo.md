@@ -42,6 +42,7 @@
 1. Revise level select text.
 1. Score.
 1. 200 thematic levels.
+1. Compliments reveal words from level.
 1. Shuffle.
 1. Hint.
 1. Reveal letter.

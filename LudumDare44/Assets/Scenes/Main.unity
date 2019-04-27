@@ -649,6 +649,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 119914, guid: 341c2035efe4dd246a9cd14d4f319064, type: 3}
+      propertyPath: m_Name
+      value: Compliment
+      objectReference: {fileID: 0}
     - target: {fileID: 483566, guid: 341c2035efe4dd246a9cd14d4f319064, type: 3}
       propertyPath: m_LocalPosition.x
       value: 0
@@ -682,15 +686,15 @@ PrefabInstance:
       value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 483566, guid: 341c2035efe4dd246a9cd14d4f319064, type: 3}
-      propertyPath: m_LocalScale.x
-      value: 0.8
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 483566, guid: 341c2035efe4dd246a9cd14d4f319064, type: 3}
-      propertyPath: m_LocalScale.y
-      value: 0.8
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 21272576, guid: 341c2035efe4dd246a9cd14d4f319064, type: 3}
-      propertyPath: m_Enabled
+    - target: {fileID: 483566, guid: 341c2035efe4dd246a9cd14d4f319064, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
