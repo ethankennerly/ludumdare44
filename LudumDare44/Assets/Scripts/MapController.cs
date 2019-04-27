@@ -21,8 +21,7 @@ public class MapController : BaseController
     {
         base.Start();
 
-        // ScrollRectSnapper.SnapToChild(m_ScrollRect, m_LevelsParent, Prefs.UnlockedLevel);
-        Transform levelTransform = ScrollRectSnapper.GetChild(m_LevelsParent, 360);
+        Transform levelTransform = ScrollRectSnapper.GetChild(m_LevelsParent, Prefs.UnlockedLevel);
         ScrollRectSnapper.SnapTo(m_ScrollRect, levelTransform);
     }
 }
