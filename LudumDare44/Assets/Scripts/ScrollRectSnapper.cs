@@ -12,38 +12,56 @@ namespace FineGameDesign.UI
         /// </a>
         public static void SnapTo(ScrollRect scroll, Transform target)
         {
-            Canvas.ForceUpdateCanvases();
-
-            RectTransform content = scroll.content;
-            Transform scrollTransform = scroll.transform;
-            Vector2 contentInScroll = scrollTransform.InverseTransformPoint(content.position);
-            Vector2 targetInScroll = scrollTransform.InverseTransformPoint(target.position);
-            Vector2 nextContentPosition = contentInScroll - targetInScroll;
-            content.anchoredPosition = nextContentPosition;
-        }
-
-        public static void SnapToChild(ScrollRect scroll, int childIndex)
-        {
             if (scroll == null)
             {
                 Debug.LogError("Expected scroll was defined.");
                 return;
             }
+
             RectTransform content = scroll.content;
             if (content == null)
             {
                 Debug.LogError("Expected content defined in scroll=" + scroll);
                 return;
             }
-            if (content.childCount == 0)
+            Transform scrollTransform = scroll.transform;
+
+            if (target == null)
             {
-                Debug.LogError("Expected content has a child. content=" + content);
+                Debug.LogError("Expected target defined for content=" + content);
                 return;
             }
 
-            childIndex = Mathf.Clamp(childIndex, 0, content.childCount - 1);
-            Transform child = content.GetChild(childIndex);
-            SnapTo(scroll, child);
+            Canvas.ForceUpdateCanvases();
+
+            Vector2 contentInScroll = scrollTransform.InverseTransformPoint(content.position);
+            Vector2 targetInScroll = scrollTransform.InverseTransformPoint(target.position);
+            Vector2 nextContentPosition = contentInScroll - targetInScroll;
+            if (!scroll.horizontal)
+                nextContentPosition.x = contentInScroll.x;
+            if (!scroll.vertical)
+                nextContentPosition.y = contentInScroll.y;
+            content.anchoredPosition = nextContentPosition;
+        }
+
+        public static Transform GetChild(Transform parent, int childIndex)
+        {
+            if (parent == null)
+            {
+                Debug.LogError("Expected parent defined.");
+                return null;
+            }
+
+            int numChildren = parent.childCount;
+            if (numChildren == 0)
+            {
+                Debug.LogError("Expected parent has a child. parent=" + parent);
+                return null;
+            }
+
+            childIndex = Mathf.Clamp(childIndex, 0, numChildren - 1);
+            Transform child = parent.GetChild(childIndex);
+            return child;
         }
     }
 }

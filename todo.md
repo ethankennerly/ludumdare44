@@ -14,15 +14,16 @@
 # TODO
 
 1. Map: Vertical layout group.
+1. Map: Scroll downwards.
+1. Level Button: Replace UI Text with Text Mesh Pro.
 1. All screens: 10:22 safe area and 3:4 max area.
 1. All screens: Letterbox WebGL fullscreen 22:10.
 1. Home: Layout title.
-1. Replace letter UI Text with Text Mesh Pro.
+1. Letter: Replace UI Text with Text Mesh Pro.
 1. Letter: Align letter tap area to image size.
 1. Letter: Align letter to image size.
 1. Replace with Toby's images.
 1. Replace with Helene's music and sounds.
-1. Map: Scroll downwards.
 1. Map: Read letter per level unlocked.
 1. Build Android and WebGL.
 1. Upload to finegamedesign.com/wordbinder
