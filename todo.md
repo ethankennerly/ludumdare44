@@ -3,10 +3,10 @@
 1. Disable IAP notice in editor.
     1. Remove IAP Checker and Editor Update.
 1. Layout letter pan.
+1. Layout word region to level 720 "simply".
 
 # TODO
 
-1. Layout word region.
 1. Layout how to play.
 1. Layout already found.
 1. Layout extra words.
