@@ -12,10 +12,11 @@
 1. Map: Scrolls to current level.
 1. Map: Vertical layout group.
 1. Map: Scroll downwards.
+1. Level Button: Replace UI Text with Text Mesh Pro.
 
 # TODO
 
-1. Level Button: Replace UI Text with Text Mesh Pro.
+1. Selected letters: 10:22 safe area and 3:4 max area.
 1. All screens: 10:22 safe area and 3:4 max area.
 1. All screens: Letterbox WebGL fullscreen 22:10.
 1. Home: Layout title.
