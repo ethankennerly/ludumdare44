@@ -13,6 +13,7 @@
 1. Layout level complete.
 1. Layout level select.
 1. Layout 10:22 safe area to 3:4 max area.
+1. Letterbox WebGL fullscreen 22:10.
 1. Layout title.
 1. Replace images.
 1. Replace music and sounds.
