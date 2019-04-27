@@ -22,11 +22,10 @@
 1. Word Region: Replace UI Text with Text Mesh Pro.
 1. Line Drawer: Letter Radius: Approx image size.
 1. Main 0 music: Configures Helene's draft 2.
+1. Word region: Fits 7-letter level 711 in safe area.
 
 # TODO
 
-1. Toby: Send sprites to replace.
-1. Helene: Send music and sounds.
 1. Map: Convert text and offset to array of letter positions.
 1. Map: Spawn levels at letter positions.
 1. Map: For completed levels, reveal letters.
@@ -36,6 +35,8 @@
 1. Submit to Ludum Dare.
 1. Invite playtesters.
 1. Read reviews.
+1. Toby: Send sprites to replace.
+1. Helene: Send music and sounds.
 
 # Nice to have
 
