@@ -2,12 +2,11 @@
 
 1. Disable IAP notice in editor.
     1. Remove IAP Checker and Editor Update.
+1. Layout letter pan.
 
 # TODO
 
-1. Replace images.
-1. Layout letter pan.
-1. Layout word grid.
+1. Layout word region.
 1. Layout how to play.
 1. Layout already found.
 1. Layout extra words.
@@ -15,6 +14,7 @@
 1. Layout level select.
 1. Layout 10:22 safe area to 3:4 max area.
 1. Layout title.
+1. Replace images.
 1. Replace music and sounds.
 1. Replace UI Text with Text Mesh Pro.
 1. Scroll downwards.
