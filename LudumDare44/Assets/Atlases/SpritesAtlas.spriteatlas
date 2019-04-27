@@ -42,7 +42,7 @@ SpriteAtlas:
     variantMultiplier: 1
     packables:
     - {fileID: 102900000, guid: 4dafab0b594644d49b573a8392e9c1a3, type: 3}
-    totalSpriteSurfaceArea: 361038
+    totalSpriteSurfaceArea: 365460
     bindAsDefault: 1
   m_MasterAtlas: {fileID: 0}
   m_PackedSprites:
@@ -52,15 +52,19 @@ SpriteAtlas:
   - {fileID: 21300000, guid: 53e8b83594e26d043b3d4e997d313796, type: 3}
   - {fileID: 21300000, guid: 03359e45640faf4418af8f531a1893d6, type: 3}
   - {fileID: 21300000, guid: 2df9db85a5150244c8a19cbdba3f1ffb, type: 3}
+  - {fileID: 21300000, guid: 914694c60c943cc49a636319e617a782, type: 3}
   - {fileID: 21300000, guid: 3218bb07b56bc5947bbabf51f565a942, type: 3}
   - {fileID: 21300000, guid: 3c6d23c79341d4446ab609cad54deeda, type: 3}
+  - {fileID: 21300000, guid: 708f5e883789ef748b183c5402e099cc, type: 3}
   - {fileID: 21300000, guid: 0a3be8f8f04626848a256db4d94cd0f8, type: 3}
   - {fileID: 21300000, guid: 303a9539afb5c9545a66f9782bb328d0, type: 3}
   - {fileID: 21300000, guid: 95277f89fc22ae444af024f4d4291922, type: 3}
+  - {fileID: 21300000, guid: 0b501b0bfe1b14a4ebcaaa95f03a67bc, type: 3}
   - {fileID: 21300000, guid: 5d27fc6b8b118774cb29080e53663b45, type: 3}
   - {fileID: 21300000, guid: 9c14c71c3ac91cd48af2668bff436614, type: 3}
   - {fileID: 21300000, guid: 1b93939c1850897408a7503f2904d652, type: 3}
   - {fileID: 21300000, guid: 35d4befc00afc2a488baf4e411aa749e, type: 3}
+  - {fileID: 21300000, guid: e65a13fdb5c0a0442a44f30f8a557e22, type: 3}
   - {fileID: 21300000, guid: 8116122f8c7760b4bbcc1758ffc22288, type: 3}
   - {fileID: 21300000, guid: 624098df6cbd1d343b3f622c77b4adaa, type: 3}
   - {fileID: 21300000, guid: 313de0ff6b06e944b9abd46507e5d979, type: 3}
@@ -71,15 +75,19 @@ SpriteAtlas:
   - board00
   - board01
   - level_special_passed
+  - letter_back02
   - button_back_small
   - dialog00
+  - letter_back00
   - button_menu
   - button_back_large
   - map00
+  - letter_back01
   - level_special_locked
   - level_passed
   - level_locked
   - game_title
+  - letter_back03
   - background
   - level_current
   - icon_extraword
