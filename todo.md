@@ -37,11 +37,11 @@
 1. Current level: Big tap area bleeds down and right.
 1. Locked level button: 23x32. Font 32pt. No raycast.
 1. Char Level: Current level no letter. Max previous.
+1. Previous level: 40x40 des px tap bleed down/right.
 
 # TODO
 
 1. Toby: Illustrates sprites.
-1. Previous level: Big tap area bleeds down and right.
 1. Help: Illustrate. THE/H?
 1. Satisfy [Jerome's comments](playtest.md#jerome-byrne):
     1. THE/H? Confused here. Ah i had to get multiple words.
