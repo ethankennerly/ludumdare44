@@ -2,7 +2,18 @@
 
 Huawei Android phone BLA AO9.
 
-## Editor CPU: Reload Main 160 ms, fade out 60 ms
+## CPU: 
+
+- 100 ms `MapController.Start`
+    - `Instantiate`
+- 15 ms `EventSystem.Update`: Pause button.
+    - 9 ms `Instantiate`
+- 6 ms `LineDrawer.Update` and 6 KB garbage. When word is matched.
+    - `GameObject.Activate`
+
+Tap on next level button spins button, doesn't spike CPU but doesn't load next level.
+
+## Editor CPU: Reload Main 160 ms, fade out 60 ms on April 28, 6 am
 
 Windows editor:
 
