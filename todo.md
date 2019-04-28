@@ -40,10 +40,17 @@
 1. Previous level: 40x40 des px tap bleed down/right.
 1. Level 0 asset: Extracts from Word Link resources.
 1. Help: ???/?? (S,H,E) Swipe SHE. SHE/H? Swipe HE.
+1. Superpow Window Editor: Unlock level 100.
 
 # TODO
 
 1. Toby: Illustrates sprites.
+1. YAML To CSV Converter: 3 col CSV from level asset.
+1. File sorter: Sorts pattern number in text.
+1. Anagram Level Formatter: CSV from 721 level asset.
+1. Anagram Level Parser: Parses anagram levels CSV.
+1. Pan, word region, main: Load anagram level.
+1. Remove 6 rows of 3 letter words from CSV.
 1. Satisfy [Jerome's comments](playtest.md#jerome-byrne):
     1. Starts to really flow after I understood it but I feel its spending too long on max 3 letter words.
     1. "Hen" is not registered as a word on this level (when). "Lay" is rejected here (play). I guess thats part of the game.  I just expected that it would accept any real word that was the correct length
