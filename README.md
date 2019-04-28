@@ -1,8 +1,12 @@
 # Wordbinder
 
-Game jam. From April 15 - April 28. For Ludum Dare 44.
+Swipe to spell a word.
+
+Spell all the crosswords.
 
 ## Credits
+Game jam. From April 15 - April 28. For Ludum Dare 44.
+
 - Artist: Toby Hefflin
 - Musician: Helene Choyer
 - Font: [Alkhemikal by Font End Dev](https://fontenddev.com/fonts/alkhemikal/)

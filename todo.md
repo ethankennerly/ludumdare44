@@ -27,21 +27,31 @@
 1. Letter Positioner: Convert to array of letters and positions.
 1. Level Instantiator: index, pre/cur/next prefabs.
 1. Level Instantiator: Spawn prefabs at positions.
-
-# TODO
-
 1. Level Instantiator: For pre/cur levels, reveal letters.
 1. Map: Read letter per level unlocked.
 1. Build Android and WebGL.
 1. Upload to finegamedesign.com/wordbinder
 1. Submit to Ludum Dare.
 1. Invite playtesters.
-1. Read reviews.
+
+# TODO
+
 1. Toby: Send sprites to replace.
 1. Helene: Send music and sounds.
+1. Satisfy [Jerome's comments](playtest.md#jerome-byrne):
+    1. First level is really hard to tap on an s9. Took a while to register.
+    1. THE/H? Confused here. Ah i had to get multiple words.
+    1. Starts to really flow after I understood it but I feel its spending too long on max 3 letter words.
+    1. "Hen" is not registered as a word on this level (when). "Lay" is rejected here (play). I guess thats part of the game.  I just expected that it would accept any real word that was the correct length
+    1. I think the crossword itself could be bigger?
+    1. Also kinda minor but the ye olde text is kinda hard to read.  I do think that font adds some slight confusion, takes just a bit longer to visually parse it.
+    1. Minor but sometimes the next level button just spins when tapped. Second tap works though.
+    1. Minor but back button is weird. Expected ok button at the bottom or no button and just tap to dismiss.
+    1. UI elements are really low res. Minor again.
 
 # Nice to have
 
+1. Crisp images.
 1. Score.
 1. Layout extra word dialog.
 1. Layout already found.
