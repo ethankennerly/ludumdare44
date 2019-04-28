@@ -53,6 +53,7 @@
 1. Anagram Levels Parser: Game Master, to run main.
 1. Aspect Scaler: Word region fits in space.
 1. Toby: Illustrates buttons and backgrounds.
+1. Map: Lays out Toby's background.
 
 # TODO
 
