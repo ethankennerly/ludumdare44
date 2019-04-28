@@ -17,6 +17,9 @@ public class MapController : BaseController
     [SerializeField]
     private LetterPositioner m_LetterPositioner;
 
+    [SerializeField]
+    private CharLevelInstantiator m_Instantiator;
+
     /// <remarks>
     /// Snaps to child.
     /// Does not call <see cref="CUtils.ShowChildInScrollView"/> because that doesn't support nested children in scaled parents.
@@ -27,7 +30,10 @@ public class MapController : BaseController
 
         m_LetterPositioner.ParseText();
 
-        Transform levelTransform = ScrollRectSnapper.GetChild(m_LevelsParent, Prefs.UnlockedLevel);
+        int levelIndex = Prefs.UnlockedLevel;
+        m_Instantiator.Instantiate(levelIndex, m_LevelsParent, m_LetterPositioner.PrintableCharacters, m_LetterPositioner.LocalPositions);
+
+        Transform levelTransform = ScrollRectSnapper.GetChild(m_LevelsParent, levelIndex);
         ScrollRectSnapper.SnapTo(m_ScrollRect, levelTransform);
     }
 }

@@ -23,13 +23,13 @@
 1. Line Drawer: Letter Radius: Approx image size.
 1. Main 0 music: Configures Helene's draft 2.
 1. Word region: Fits 7-letter level 711 in safe area.
-
-# TODO
-
 1. Letter Positioner: Text, start/col/row vectors.
 1. Letter Positioner: Convert to array of letters and positions.
 1. Level Instantiator: index, pre/cur/next prefabs.
 1. Level Instantiator: Spawn prefabs at positions.
+
+# TODO
+
 1. Level Instantiator: For pre/cur levels, reveal letters.
 1. Map: Read letter per level unlocked.
 1. Build Android and WebGL.

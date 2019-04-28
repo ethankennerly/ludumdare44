@@ -24,7 +24,7 @@ namespace FineGameDesign.Text
         }
 
         private Vector3[] m_LocalPositions;
-        private Vector3[] LocalPositions
+        public Vector3[] LocalPositions
         {
             get { return m_LocalPositions; }
         }
@@ -32,18 +32,20 @@ namespace FineGameDesign.Text
         public void ParseText()
         {
             string textToPosition = m_TextToPosition.text;
-            // Last character is end of file.
+            // Last character is end of of file.
             int numChars = textToPosition.Length - 1;
             m_PrintableCharacters = new char[numChars];
             m_LocalPositions = new Vector3[numChars];
             int printableCharIndex = 0;
+            int row = 0;
             Vector3 localPosition = m_StartLocalPosition;
             for (int charIndex = 0; charIndex < numChars; ++charIndex)
             {
                 char character = textToPosition[charIndex];
                 if (character == '\n')
                 {
-                    localPosition += m_LocalOffsetPerRow;
+                    row++;
+                    localPosition = m_StartLocalPosition + row * m_LocalOffsetPerRow;
                     continue;
                 }
                 m_PrintableCharacters[printableCharIndex] = character;
@@ -51,7 +53,7 @@ namespace FineGameDesign.Text
                 printableCharIndex++;
                 localPosition += m_LocalOffsetPerColumn;
             }
-            int numPrintableCharacters = printableCharIndex + 1;
+            int numPrintableCharacters = printableCharIndex;
             Array.Resize(ref m_PrintableCharacters, numPrintableCharacters);
             Array.Resize(ref m_LocalPositions, numPrintableCharacters);
         }
