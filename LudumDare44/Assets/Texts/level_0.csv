@@ -1,2 +1,2 @@
-answers,m_CorrespondingSourceObject,m_EditorClassIdentifier,m_EditorHideFlags,m_Enabled,m_GameObject,m_Name,m_ObjectHideFlags,m_PrefabInternal,m_Script,validWords,word
-he|she|,{'fileID': 0},,0,1,{'fileID': 0},Level_0,0,{'fileID': 0},"{'guid': '88afd11c802cdf6449faf33ed6e4e3bd', 'type': 3, 'fileID': 11500000}",he|she|,she
+word,answers,validWords
+she,he|she|,he|she|

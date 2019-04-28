@@ -1,4 +1,14 @@
 """
+Usage:
+
+    Edit cfg in unity2csv.py
+
+    python unity2csv.py yaml_file [yaml_file...] > output.csv
+
+Example:
+
+    python ../../../../Tools/unity2csv.py ../../Resources/Level_0.asset > ../../Texts/level_0.csv
+
 To import yaml, install PyYaml.
 
 Example from command line:
@@ -7,6 +17,13 @@ Example from command line:
 
 https://stackoverflow.com/questions/33665181/how-to-install-pyyaml-on-windows-10
 """
+
+cfg = {
+    'parent_key': 'MonoBehaviour',
+    'fieldnames': ['word', 'answers', 'validWords']
+}
+
+
 import csv
 import sys
 import os
@@ -20,8 +37,6 @@ def realpath(path):
 sys.path.append(realpath('vlad_dumitrascu'))
 import unity2yaml
 
-parent_key = 'MonoBehaviour'
-
 def create_csv_writer(fieldnames):
     writer = csv.DictWriter(sys.stdout,
         fieldnames=fieldnames,
@@ -31,25 +46,30 @@ def create_csv_writer(fieldnames):
     return writer
 
 
-def load(path, parent_key):
+def load(path, parent_key, filter_keys = None):
     yaml_string = unity2yaml.removeUnityTagAlias(path)
     yaml_object = yaml.safe_load(yaml_string)
     if parent_key not in yaml_object:
         raise 'Usage: Expected %r key in file %r' % (parent_key, path)
     child_object = yaml_object[parent_key]
+    if filter_keys:
+        child_object = filter_dictionary(child_object, filter_keys)
     return child_object
+
+def filter_dictionary(source_dictionary, keys):
+    filtered = {}
+    for key in keys:
+        filtered[key] = source_dictionary[key]
+    return filtered
 
 
 if '__main__' == __name__:
     if len(sys.argv) < 2:
-        print('Usage: python unity2csv.py yaml_file [yaml_file...] > output.csv')
+        print(__doc__)
         sys.exit(0)
     paths = sys.argv[1:]
     path = paths[0]
-    yaml_object = load(path, parent_key)
-    fieldnames = yaml_object.keys()
-    fieldnames.sort()
-    writer = create_csv_writer(fieldnames)
+    writer = create_csv_writer(cfg['fieldnames'])
     for path in paths:
-        yaml_object = load(path, parent_key)
+        yaml_object = load(path, cfg['parent_key'], cfg['fieldnames'])
         writer.writerow(yaml_object)
