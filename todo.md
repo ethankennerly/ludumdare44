@@ -54,6 +54,7 @@
 1. Aspect Scaler: Word region fits in space.
 1. Toby: Illustrates buttons and backgrounds.
 1. Map: Lays out Toby's background.
+1. How To Play: Lays out Toby's close button.
 
 # TODO
 

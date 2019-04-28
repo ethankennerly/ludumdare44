@@ -90,8 +90,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -57.4, y: 85.7}
-  m_SizeDelta: {x: 29, y: 34}
+  m_AnchoredPosition: {x: 60, y: 104}
+  m_SizeDelta: {x: 21, y: 22}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!222 &222331768056011350
 CanvasRenderer:
@@ -121,9 +121,9 @@ MonoBehaviour:
       m_Calls: []
     m_TypeName: UnityEngine.UI.MaskableGraphic+CullStateChangedEvent, UnityEngine.UI,
       Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
-  m_Sprite: {fileID: 21300000, guid: 3218bb07b56bc5947bbabf51f565a942, type: 3}
+  m_Sprite: {fileID: 21300000, guid: 4169ef87a576b6c44843b67ed34c654d, type: 3}
   m_Type: 0
-  m_PreserveAspect: 0
+  m_PreserveAspect: 1
   m_FillCenter: 1
   m_FillMethod: 4
   m_FillAmount: 1
@@ -893,7 +893,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 8, y: 88}
+  m_AnchoredPosition: {x: 8, y: 78}
   m_SizeDelta: {x: 88, y: 22}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!222 &3734326033123944609
@@ -1253,8 +1253,8 @@ MonoBehaviour:
   m_fontMaterials: []
   m_fontColor32:
     serializedVersion: 2
-    rgba: 4278191675
-  m_fontColor: {r: 0.23137257, g: 0.023529414, b: 0, a: 1}
+    rgba: 4278199413
+  m_fontColor: {r: 0.45882356, g: 0.14117648, b: 0, a: 1}
   m_enableVertexGradient: 0
   m_colorMode: 3
   m_fontColorGradient:
