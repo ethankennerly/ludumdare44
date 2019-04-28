@@ -1,6 +1,10 @@
 """
 To import yaml, install PyYaml.
 
+Example from command line:
+
+        pip install PyYAML-3.13-cp27-cp27m-win32.whl
+
 https://stackoverflow.com/questions/33665181/how-to-install-pyyaml-on-windows-10
 """
 import csv
@@ -16,6 +20,7 @@ def realpath(path):
 sys.path.append(realpath('vlad_dumitrascu'))
 import unity2yaml
 
+parent_key = 'MonoBehaviour'
 
 def create_csv_writer(fieldnames):
     writer = csv.DictWriter(sys.stdout,
@@ -26,10 +31,13 @@ def create_csv_writer(fieldnames):
     return writer
 
 
-def load(path):
+def load(path, parent_key):
     yaml_string = unity2yaml.removeUnityTagAlias(path)
     yaml_object = yaml.safe_load(yaml_string)
-    return yaml_object
+    if parent_key not in yaml_object:
+        raise 'Usage: Expected %r key in file %r' % (parent_key, path)
+    child_object = yaml_object[parent_key]
+    return child_object
 
 
 if '__main__' == __name__:
@@ -38,8 +46,8 @@ if '__main__' == __name__:
         sys.exit(0)
     paths = sys.argv[1:]
     path = paths[0]
-    yaml_object = load(path)
+    yaml_object = load(path, parent_key)
     writer = create_csv_writer(yaml_object.keys())
     for path in paths:
-        yaml_object = load(path)
+        yaml_object = load(path, parent_key)
         writer.writerow(yaml_object)
