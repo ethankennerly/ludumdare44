@@ -19,8 +19,9 @@ import unity2yaml
 
 def create_csv_writer(fieldnames):
     writer = csv.DictWriter(sys.stdout,
-                            fieldnames=fieldnames,
-                            quoting=csv.QUOTE_MINIMAL)
+        fieldnames=fieldnames,
+        quoting=csv.QUOTE_MINIMAL,
+        lineterminator='\n')
     writer.writeheader()
     return writer
 
