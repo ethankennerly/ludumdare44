@@ -42,11 +42,11 @@
 1. Help: ???/?? (S,H,E) Swipe SHE. SHE/H? Swipe HE.
 1. Superpow Window Editor: Unlock level 100.
 1. YAML To CSV Converter: 3 col CSV from level asset.
+1. Anagram Level Parser: Parses anagram levels CSV.
 
 # TODO
 
 1. Toby: Illustrates sprites.
-1. Anagram Level Parser: Parses anagram levels CSV.
 1. Pan, word region, main: Load anagram level.
 1. Remove 6 rows of 3 letter words from CSV.
 1. Satisfy [Jerome's comments](playtest.md#jerome-byrne):

@@ -33,6 +33,7 @@ public class MapController : BaseController
         base.Start();
 
         m_LevelsParser.ParseLevels();
+        AnagramLevelsController.instance.Levels = m_LevelsParser.Levels;
 
         m_LetterPositioner.ParseText();
 
