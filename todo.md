@@ -65,6 +65,7 @@
 
 # Nice to have
 
+1. Cell on page, not dark background.
 1. Home/map: Scroll. How many letters can you decrypt?
 1. Crossword Validator: Each answer included.
 1. 200 thematic levels.
