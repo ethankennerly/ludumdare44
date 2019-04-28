@@ -26,9 +26,11 @@
 
 # TODO
 
-1. Map: Convert text and offset to array of letter positions.
-1. Map: Spawn levels at letter positions.
-1. Map: For completed levels, reveal letters.
+1. Letter Positioner: Text, start/col/row vectors.
+1. Letter Positioner: Convert to array of letters and positions.
+1. Level Instantiator: index, pre/cur/next prefabs.
+1. Level Instantiator: Spawn prefabs at positions.
+1. Level Instantiator: For pre/cur levels, reveal letters.
 1. Map: Read letter per level unlocked.
 1. Build Android and WebGL.
 1. Upload to finegamedesign.com/wordbinder
