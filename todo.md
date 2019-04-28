@@ -55,6 +55,7 @@
 1. Toby: Illustrates buttons and backgrounds.
 1. Map: Lays out Toby's background.
 1. How To Play: Lays out Toby's close button.
+1. How To Play: Lays out Toby's buttons.
 
 # TODO
 
@@ -66,6 +67,7 @@
 
 # Nice to have
 
+1. Scroll viewport clips back button.
 1. Cell on page, not dark background.
 1. Home/map: Scroll. How many letters can you decrypt?
 1. Crossword Validator: Each answer included.
