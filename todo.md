@@ -36,11 +36,11 @@
 1. Helene: Composes music, button, match, win sound.
 1. Current level: Big tap area bleeds down and right.
 1. Locked level button: 23x32. Font 32pt. No raycast.
+1. Char Level: Current level no letter. Max previous.
 
 # TODO
 
 1. Toby: Illustrates sprites.
-1. Current level does not reveal letter. Max level not current.
 1. Previous level: Big tap area bleeds down and right.
 1. Help: Illustrate. THE/H?
 1. Satisfy [Jerome's comments](playtest.md#jerome-byrne):

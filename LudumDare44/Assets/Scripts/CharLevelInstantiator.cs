@@ -26,7 +26,7 @@ namespace FineGameDesign.Text
 
             int numLevels = localPositions.Length;
             if (currentIndex >= numLevels)
-                currentIndex = numLevels - 1;
+                currentIndex = numLevels;
             
             for (int previousIndex = 0; previousIndex < currentIndex; ++previousIndex)
             {
@@ -37,11 +37,13 @@ namespace FineGameDesign.Text
                 previousButton.LevelNumberText.text = characters[previousIndex].ToString();
             }
 
+            if (currentIndex >= numLevels)
+                return;
+
             GameObject currentClone = Instantiate(m_CurrentLevelPrefab, parent);
             ((RectTransform)(currentClone.transform)).anchoredPosition = localPositions[currentIndex];
             LevelButton currentButton = currentClone.GetComponent<LevelButton>();
             currentButton.LevelIndex = currentIndex;
-            currentButton.LevelNumberText.text = characters[currentIndex].ToString();
 
             for (int nextIndex = currentIndex + 1; nextIndex < numLevels; ++nextIndex)
             {
