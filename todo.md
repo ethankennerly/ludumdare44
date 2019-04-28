@@ -43,11 +43,11 @@
 1. Superpow Window Editor: Unlock level 100.
 1. YAML To CSV Converter: 3 col CSV from level asset.
 1. Anagram Level Parser: Parses anagram levels CSV.
+1. Pan, word region, main: Loads anagram level.
 
 # TODO
 
 1. Toby: Illustrates sprites.
-1. Pan, word region, main: Load anagram level.
 1. Remove 6 rows of 3 letter words from CSV.
 1. Satisfy [Jerome's comments](playtest.md#jerome-byrne):
     1. Starts to really flow after I understood it but I feel its spending too long on max 3 letter words.
