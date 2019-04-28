@@ -49,12 +49,11 @@
     1. Otherwise, some words did not fit.
     1. Example: "hen" in "when" (Word Link level 20)
     1. and "lay" in "play" (Word Link level 23).
-1. Insert "axe" into Word Link level 159.
+1. Anagram Levels: "axe" in Word Link level 159.
 
 # TODO
 
 1. Toby: Illustrates sprites.
-1. Crossword Validator: Each answer included.
 1. Satisfy [Jerome's comments](playtest.md#jerome-byrne):
     1. I think the crossword itself could be bigger?
     1. Also kinda minor but the ye olde text is kinda hard to read.  I do think that font adds some slight confusion, takes just a bit longer to visually parse it.
@@ -64,9 +63,8 @@
 
 # Nice to have
 
-1. Level 159 accepts axe.
-1. Crisp images.
 1. Home/map: Scroll. How many letters can you decrypt?
+1. Crossword Validator: Each answer included.
 1. 200 thematic levels.
 1. Score.
 1. Layout extra word dialog.

@@ -31,6 +31,13 @@ namespace FineGameDesign.Anagram
 
         private int m_NumLevels;
 
+        public static AnagramLevelsParser instance;
+
+        private void Awake()
+        {
+            instance = this;
+        }
+
         public void ParseLevels()
         {
             string csvText = m_LevelsCsv.text;
