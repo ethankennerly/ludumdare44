@@ -45,7 +45,6 @@
 
 1. Toby: Illustrates sprites.
 1. Satisfy [Jerome's comments](playtest.md#jerome-byrne):
-    1. THE/H? Confused here. Ah i had to get multiple words.
     1. Starts to really flow after I understood it but I feel its spending too long on max 3 letter words.
     1. "Hen" is not registered as a word on this level (when). "Lay" is rejected here (play). I guess thats part of the game.  I just expected that it would accept any real word that was the correct length
     1. I think the crossword itself could be bigger?
