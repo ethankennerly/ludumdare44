@@ -31,6 +31,7 @@ namespace FineGameDesign.Text
             for (int previousIndex = 0; previousIndex < currentIndex; ++previousIndex)
             {
                 GameObject previousClone = Instantiate(m_PreviousLevelPrefab, parent);
+                previousClone.name += "_" + previousIndex;
                 ((RectTransform)(previousClone.transform)).anchoredPosition = localPositions[previousIndex];
                 LevelButton previousButton = previousClone.GetComponent<LevelButton>();
                 previousButton.LevelIndex = previousIndex;
@@ -41,6 +42,7 @@ namespace FineGameDesign.Text
                 return;
 
             GameObject currentClone = Instantiate(m_CurrentLevelPrefab, parent);
+            currentClone.name += "_" + currentIndex;
             ((RectTransform)(currentClone.transform)).anchoredPosition = localPositions[currentIndex];
             LevelButton currentButton = currentClone.GetComponent<LevelButton>();
             currentButton.LevelIndex = currentIndex;
@@ -48,6 +50,7 @@ namespace FineGameDesign.Text
             for (int nextIndex = currentIndex + 1; nextIndex < numLevels; ++nextIndex)
             {
                 GameObject nextClone = Instantiate(m_NextLevelPrefab, parent);
+                nextClone.name += "_" + nextIndex;
                 ((RectTransform)(nextClone.transform)).anchoredPosition = localPositions[nextIndex];
             }
         }

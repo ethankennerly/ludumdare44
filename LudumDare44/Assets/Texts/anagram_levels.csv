@@ -152,7 +152,7 @@ index,word,answers,validWords
 156,plate,plat|pale|peal|leap|pate|tape|tale|plate|pleat|petal|,plat|plea|pale|peal|leap|pelt|pate|peat|tape|late|tale|teal|plate|pleat|petal|
 157,alive,vial|vale|veal|live|vile|veil|evil|alive|,vial|vale|veal|live|vile|veil|evil|alive|
 158,abuse,sea|bus|use|sue|base|abuse|,abs|sea|bus|use|sue|beau|base|abuse|beaus|
-159,extra,eat|tea|ate|era|ear|are|tax|rat|art|tear|tare|rate|extra|,eat|tea|ate|era|ear|are|tax|tar|rat|art|tear|tare|rate|extra|
+159,extra,axe|eat|tea|ate|era|ear|are|tax|rat|art|tear|tare|rate|extra|,axe|eat|tea|ate|era|ear|are|tax|tar|rat|art|tear|tare|rate|extra|
 160,urban,run|bun|bra|bar|ran|ban|burn|bran|barn|urban|,rub|bur|urn|run|bun|nub|bra|bar|ran|ban|nab|burn|bran|barn|urban|
 161,radio,air|rid|aid|ado|raid|arid|road|radio|,air|oar|rid|rod|aid|ado|raid|arid|road|radio|
 162,dream,dear|dare|read|dram|dame|mead|made|ream|mare|dream|,dear|dare|read|dram|dame|mead|made|ream|mare|dream|armed|

@@ -45,18 +45,21 @@
 1. Anagram Level Parser: Parses anagram levels CSV.
 1. Pan, word region, main: Loads anagram level.
 1. Anagram Levels CSV: Keeps 6 of 3-letter words.
+1. Crossword Generator: Inserts words in reverse.
+    1. Otherwise, some words did not fit.
+    1. Example: "hen" in "when" (Word Link level 20)
+    1. and "lay" in "play" (Word Link level 23).
+1. Insert "axe" into Word Link level 159.
 
 # TODO
 
 1. Toby: Illustrates sprites.
+1. Crossword Validator: Each answer included.
 1. Satisfy [Jerome's comments](playtest.md#jerome-byrne):
-    1. Starts to really flow after I understood it but I feel its spending too long on max 3 letter words.
-    1. "Hen" is not registered as a word on this level (when). "Lay" is rejected here (play). I guess thats part of the game.  I just expected that it would accept any real word that was the correct length
     1. I think the crossword itself could be bigger?
     1. Also kinda minor but the ye olde text is kinda hard to read.  I do think that font adds some slight confusion, takes just a bit longer to visually parse it.
     1. Minor but sometimes the next level button just spins when tapped. Second tap works though.
     1. Minor but back button is weird. Expected ok button at the bottom or no button and just tap to dismiss.
-    1. UI elements are really low res. Minor again.
 1. Clamp level scrolling to last level.
 
 # Nice to have
