@@ -44,11 +44,11 @@
 1. YAML To CSV Converter: 3 col CSV from level asset.
 1. Anagram Level Parser: Parses anagram levels CSV.
 1. Pan, word region, main: Loads anagram level.
+1. Anagram Levels CSV: Keeps 6 of 3-letter words.
 
 # TODO
 
 1. Toby: Illustrates sprites.
-1. Remove 6 rows of 3 letter words from CSV.
 1. Satisfy [Jerome's comments](playtest.md#jerome-byrne):
     1. Starts to really flow after I understood it but I feel its spending too long on max 3 letter words.
     1. "Hen" is not registered as a word on this level (when). "Lay" is rejected here (play). I guess thats part of the game.  I just expected that it would accept any real word that was the correct length
