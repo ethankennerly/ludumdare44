@@ -2,7 +2,26 @@
 
 Huawei Android phone BLA AO9.
 
-## CPU: Scroll 30 ms, level complete 20 ms
+## Editor CPU: Reload Main 160 ms, fade out 60 ms
+
+Windows editor:
+
+- 100 ms `EarlyUpdate.UpdatePreloading`: Load Main scene second time.
+    - `Preload Single Step`
+- 60 ms `WordRegion.CheckAnswer`
+    - `TextPreview.FadeOut`
+        - `iTween.ValueTo`
+            - `iTween.Launch`
+                - `CryptoConfig.LoadConfig`
+                    - `SmallXmlParser.ReadContent`
+- 40 ms `MainController.Start`: Load Main scene second time.
+- 20 ms `WordRegion.Load`
+    - 9 ms `LineWord.Build`
+        - 6 ms `Object.Instantiate`
+- 5 ms `Utils.Load`
+    - 5 ms `Resources.Load`: Level asset?
+
+## CPU: Scroll 30 ms, level complete 20 ms on April 20, 2019
 
 - 30 ms Scroll level select:
     - 20 ms UGUI.Rendering.UpdateBatches
