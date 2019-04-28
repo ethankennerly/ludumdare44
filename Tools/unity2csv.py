@@ -20,7 +20,8 @@ https://stackoverflow.com/questions/33665181/how-to-install-pyyaml-on-windows-10
 
 cfg = {
     'parent_key': 'MonoBehaviour',
-    'fieldnames': ['word', 'answers', 'validWords']
+    'fieldnames': ['m_Name', 'word', 'answers', 'validWords'],
+    'extract_number_fieldnames': ['m_Name']
 }
 
 
@@ -56,11 +57,29 @@ def load(path, parent_key, filter_keys = None):
         child_object = filter_dictionary(child_object, filter_keys)
     return child_object
 
+
 def filter_dictionary(source_dictionary, keys):
     filtered = {}
     for key in keys:
         filtered[key] = source_dictionary[key]
     return filtered
+
+
+def extract_number(dictionary, keys):
+    for key in keys:
+        text = dictionary[key]
+        digits = parse_digits(text)
+        if digits == '':
+            raise 'Expected digit in %r' % text
+            continue
+        dictionary[key] = digits
+
+
+def parse_digits(text):
+    digits = int(''.join(
+        d for d in text
+            if d.isdigit()))
+    return digits
 
 
 if '__main__' == __name__:
@@ -72,4 +91,5 @@ if '__main__' == __name__:
     writer = create_csv_writer(cfg['fieldnames'])
     for path in paths:
         yaml_object = load(path, cfg['parent_key'], cfg['fieldnames'])
+        extract_number(yaml_object, cfg['extract_number_fieldnames'])
         writer.writerow(yaml_object)
