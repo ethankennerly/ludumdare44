@@ -34,12 +34,11 @@
 1. Submit to Ludum Dare.
 1. Invite playtesters.
 1. Helene: Composes music, button, match, win sound.
+1. Current level: Big tap area bleeds down and right.
 
 # TODO
 
 1. Toby: Illustrates sprites.
-1. Current level, large button to the right, large tap area.
-    1. First level is really hard to tap on an s9. Took a while to register.
 1. Satisfy [Jerome's comments](playtest.md#jerome-byrne):
     1. THE/H? Confused here. Ah i had to get multiple words.
     1. Starts to really flow after I understood it but I feel its spending too long on max 3 letter words.
