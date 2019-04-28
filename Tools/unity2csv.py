@@ -42,12 +42,14 @@ def load(path, parent_key):
 
 if '__main__' == __name__:
     if len(sys.argv) < 2:
-        print('Usage: python unity2csv.py yaml_file [yaml_file...]')
+        print('Usage: python unity2csv.py yaml_file [yaml_file...] > output.csv')
         sys.exit(0)
     paths = sys.argv[1:]
     path = paths[0]
     yaml_object = load(path, parent_key)
-    writer = create_csv_writer(yaml_object.keys())
+    fieldnames = yaml_object.keys()
+    fieldnames.sort()
+    writer = create_csv_writer(fieldnames)
     for path in paths:
         yaml_object = load(path, parent_key)
         writer.writerow(yaml_object)
