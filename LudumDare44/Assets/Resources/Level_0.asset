@@ -11,6 +11,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 88afd11c802cdf6449faf33ed6e4e3bd, type: 3}
   m_Name: Level_0
   m_EditorClassIdentifier: 
-  word: the
-  answers: he|the|
-  validWords: he|the|
+  word: she
+  answers: he|she|
+  validWords: he|she|

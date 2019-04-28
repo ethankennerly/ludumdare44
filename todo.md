@@ -39,11 +39,11 @@
 1. Char Level: Current level no letter. Max previous.
 1. Previous level: 40x40 des px tap bleed down/right.
 1. Level 0 asset: Extracts from Word Link resources.
+1. Help: ???/?? (S,H,E) Swipe SHE. SHE/H? Swipe HE.
 
 # TODO
 
 1. Toby: Illustrates sprites.
-1. Help: ???/?? (S,H,E) Swipe SHE. SHE/H? Swipe HE.
 1. Satisfy [Jerome's comments](playtest.md#jerome-byrne):
     1. THE/H? Confused here. Ah i had to get multiple words.
     1. Starts to really flow after I understood it but I feel its spending too long on max 3 letter words.
