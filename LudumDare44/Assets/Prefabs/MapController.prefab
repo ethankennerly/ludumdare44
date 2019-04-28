@@ -44,8 +44,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_TextToPosition: {fileID: 4900000, guid: 4914851b0ba942c4ab0388653d8a9936, type: 3}
-  m_StartLocalPosition: {x: 14, y: -48, z: 0}
-  m_LocalOffsetPerColumn: {x: 16, y: 0, z: 0}
+  m_StartLocalPosition: {x: 10, y: -48, z: 0}
+  m_LocalOffsetPerColumn: {x: 20, y: 0, z: 0}
   m_LocalOffsetPerRow: {x: 0, y: -32, z: 0}
 --- !u!1 &4375945921380667683
 GameObject:
