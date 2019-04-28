@@ -9,6 +9,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 6100144967538188406}
+  - component: {fileID: 2685241206104998554}
   m_Layer: 0
   m_Name: LetterPositioner
   m_TagString: Untagged
@@ -30,6 +31,22 @@ Transform:
   m_Father: {fileID: 4375945921380667681}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &2685241206104998554
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 47188706781922041}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c9bc9cf935b7e3f4d8b2b3f4856c7def, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_TextToPosition: {fileID: 4900000, guid: 4914851b0ba942c4ab0388653d8a9936, type: 3}
+  m_StartLocalPosition: {x: 14, y: -48, z: 0}
+  m_LocalOffsetPerColumn: {x: 16, y: 0, z: 0}
+  m_LocalOffsetPerRow: {x: 0, y: -32, z: 0}
 --- !u!1 &4375945921380667683
 GameObject:
   m_ObjectHideFlags: 0
@@ -78,3 +95,4 @@ MonoBehaviour:
   sceneName: Map
   m_ScrollRect: {fileID: 0}
   m_LevelsParent: {fileID: 0}
+  m_LetterPositioner: {fileID: 2685241206104998554}

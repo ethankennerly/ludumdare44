@@ -1,4 +1,5 @@
-﻿using FineGameDesign.UI;
+﻿using FineGameDesign.Text;
+using FineGameDesign.UI;
 using UnityEngine;
 using UnityEngine.UI;
 
@@ -13,6 +14,9 @@ public class MapController : BaseController
     [SerializeField]
     private Transform m_LevelsParent;
 
+    [SerializeField]
+    private LetterPositioner m_LetterPositioner;
+
     /// <remarks>
     /// Snaps to child.
     /// Does not call <see cref="CUtils.ShowChildInScrollView"/> because that doesn't support nested children in scaled parents.
@@ -20,6 +24,8 @@ public class MapController : BaseController
     protected override void Start()
     {
         base.Start();
+
+        m_LetterPositioner.ParseText();
 
         Transform levelTransform = ScrollRectSnapper.GetChild(m_LevelsParent, Prefs.UnlockedLevel);
         ScrollRectSnapper.SnapTo(m_ScrollRect, levelTransform);
