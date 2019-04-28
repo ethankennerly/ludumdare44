@@ -35,10 +35,14 @@
 1. Invite playtesters.
 1. Helene: Composes music, button, match, win sound.
 1. Current level: Big tap area bleeds down and right.
+1. Locked level button: 23x32. Font 32pt. No raycast.
 
 # TODO
 
 1. Toby: Illustrates sprites.
+1. Current level does not reveal letter. Max level not current.
+1. Previous level: Big tap area bleeds down and right.
+1. Help: Illustrate. THE/H?
 1. Satisfy [Jerome's comments](playtest.md#jerome-byrne):
     1. THE/H? Confused here. Ah i had to get multiple words.
     1. Starts to really flow after I understood it but I feel its spending too long on max 3 letter words.
