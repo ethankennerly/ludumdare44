@@ -41,13 +41,11 @@
 1. Level 0 asset: Extracts from Word Link resources.
 1. Help: ???/?? (S,H,E) Swipe SHE. SHE/H? Swipe HE.
 1. Superpow Window Editor: Unlock level 100.
+1. YAML To CSV Converter: 3 col CSV from level asset.
 
 # TODO
 
 1. Toby: Illustrates sprites.
-1. YAML To CSV Converter: 3 col CSV from level asset.
-1. File sorter: Sorts pattern number in text.
-1. Anagram Level Formatter: CSV from 721 level asset.
 1. Anagram Level Parser: Parses anagram levels CSV.
 1. Pan, word region, main: Load anagram level.
 1. Remove 6 rows of 3 letter words from CSV.

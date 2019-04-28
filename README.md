@@ -11,6 +11,7 @@ Game jam. From April 15 - April 28. For Ludum Dare 44.
 - Musician: Helene Choyer
 - Font: [Alkhemikal by Font End Dev](https://fontenddev.com/fonts/alkhemikal/)
 - Template: [Crossy Word by Phuong Dong Tran](#tools)
+- Levels: Extracted from Crossy Word.
 - Producer: Ethan Kennerly
 
 - [art](art.md)

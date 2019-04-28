@@ -1,4 +1,5 @@
-﻿using FineGameDesign.Text;
+﻿using FineGameDesign.Anagram;
+using FineGameDesign.Text;
 using FineGameDesign.UI;
 using UnityEngine;
 using UnityEngine.UI;
@@ -20,6 +21,9 @@ public class MapController : BaseController
     [SerializeField]
     private CharLevelInstantiator m_Instantiator;
 
+    [SerializeField]
+    private AnagramLevelsParser m_LevelsParser;
+
     /// <remarks>
     /// Snaps to child.
     /// Does not call <see cref="CUtils.ShowChildInScrollView"/> because that doesn't support nested children in scaled parents.
@@ -27,6 +31,8 @@ public class MapController : BaseController
     protected override void Start()
     {
         base.Start();
+
+        m_LevelsParser.ParseLevels();
 
         m_LetterPositioner.ParseText();
 
