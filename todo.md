@@ -56,9 +56,13 @@
 1. Map: Lays out Toby's background.
 1. How To Play: Lays out Toby's close button.
 1. How To Play: Lays out Toby's buttons.
+1. Main
 
 # TODO
 
+1. Hint button.
+1. Shuffle button.
+1. Lucky button?
 1. Satisfy [Jerome's comments](playtest.md#jerome-byrne):
     1. Also kinda minor but the ye olde text is kinda hard to read.  I do think that font adds some slight confusion, takes just a bit longer to visually parse it.
     1. Minor but sometimes the next level button just spins when tapped. Second tap works though.
