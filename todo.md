@@ -33,11 +33,11 @@
 1. Upload to finegamedesign.com/wordbinder
 1. Submit to Ludum Dare.
 1. Invite playtesters.
+1. Helene: Composes music, button, match, win sound.
 
 # TODO
 
-1. Toby: Send sprites to replace.
-1. Helene: Send music and sounds.
+1. Toby: Illustrates sprites.
 1. Satisfy [Jerome's comments](playtest.md#jerome-byrne):
     1. First level is really hard to tap on an s9. Took a while to register.
     1. THE/H? Confused here. Ah i had to get multiple words.
@@ -51,13 +51,15 @@
 
 # Nice to have
 
+1. Level 159 accepts axe.
 1. Crisp images.
+1. Home/map: Scroll. How many letters can you decrypt?
+1. 200 thematic levels.
 1. Score.
 1. Layout extra word dialog.
 1. Layout already found.
 1. Extra words: already found.
 1. Revise level select text.
-1. 200 thematic levels.
 1. Compliments reveal words from level.
 1. Shuffle.
 1. Hint.
@@ -69,7 +71,6 @@
 1. Three words revealed on level complete.
 1. Fly letters one at a time.
 1. Pool level select nodes.
-1. Level 159 accepts axe.
 1. Extra words from word tournament dictionary.
 1. First level is GO.
 1. Reduce screen resolution to about 240x320.

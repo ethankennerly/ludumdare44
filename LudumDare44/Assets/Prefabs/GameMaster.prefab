@@ -473,9 +473,9 @@ MonoBehaviour:
   audioSource: {fileID: 8264866}
   musicClips:
   - {fileID: 0}
-  - {fileID: 8300000, guid: c159dd72763fc554fa4eee02a10fc856, type: 3}
-  - {fileID: 8300000, guid: c159dd72763fc554fa4eee02a10fc856, type: 3}
-  - {fileID: 8300000, guid: c159dd72763fc554fa4eee02a10fc856, type: 3}
+  - {fileID: 8300000, guid: 58334d9dbce90fc41a0cd5ad1344715a, type: 3}
+  - {fileID: 8300000, guid: 58334d9dbce90fc41a0cd5ad1344715a, type: 3}
+  - {fileID: 8300000, guid: 58334d9dbce90fc41a0cd5ad1344715a, type: 3}
 --- !u!82 &8264866
 AudioSource:
   m_ObjectHideFlags: 0
@@ -951,10 +951,10 @@ MonoBehaviour:
   audioSource: {fileID: 8265758}
   loopAudioSource: {fileID: 8290582}
   buttonClips:
-  - {fileID: 8300000, guid: b69ea201de15f104d85baf18a127ed2e, type: 3}
+  - {fileID: 8300000, guid: 881ea5346908d2942a11ba280837413f, type: 3}
   otherClips:
-  - {fileID: 8300000, guid: 425a488d606aa49458b2256edaeb0549, type: 3}
-  - {fileID: 8300000, guid: 548074dc6467c8c43b3a3e71cd2ad0df, type: 3}
+  - {fileID: 8300000, guid: a72a4f8e03c763c41a5cfd20fec9060f, type: 3}
+  - {fileID: 8300000, guid: 5a139f542252293418e57371ea9c944e, type: 3}
 --- !u!82 &8265758
 AudioSource:
   m_ObjectHideFlags: 0

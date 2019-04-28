@@ -15,6 +15,7 @@ Game jam. From April 15 - April 28. For Ludum Dare 44.
 
 - [art](art.md)
 - [engineering](engineering.md)
+- [playtesting](playtesting.md)
 - [todo](todo.md)
 
 ## Tools
