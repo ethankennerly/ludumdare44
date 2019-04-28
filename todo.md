@@ -52,10 +52,10 @@
 1. Anagram Levels: "axe" in Word Link level 159.
 1. Anagram Levels Parser: Game Master, to run main.
 1. Aspect Scaler: Word region fits in space.
+1. Toby: Illustrates buttons and backgrounds.
 
 # TODO
 
-1. Toby: Illustrates sprites.
 1. Satisfy [Jerome's comments](playtest.md#jerome-byrne):
     1. Also kinda minor but the ye olde text is kinda hard to read.  I do think that font adds some slight confusion, takes just a bit longer to visually parse it.
     1. Minor but sometimes the next level button just spins when tapped. Second tap works though.
