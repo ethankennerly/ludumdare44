@@ -57,25 +57,23 @@
 1. How To Play: Lays out Toby's close button.
 1. How To Play: Lays out Toby's buttons.
 1. Main
+1. Shuffle button.
+1. Scroll viewport clips back button.
+1. Map: Scroll. How many letters can you decrypt?
+1. Map: Clamps level scrolling to last level.
 
 # TODO
 
-1. Hint button.
-1. Shuffle button.
-1. Lucky button?
 1. Satisfy [Jerome's comments](playtest.md#jerome-byrne):
     1. Also kinda minor but the ye olde text is kinda hard to read.  I do think that font adds some slight confusion, takes just a bit longer to visually parse it.
     1. Minor but sometimes the next level button just spins when tapped. Second tap works though.
-    1. Minor but back button is weird. Expected ok button at the bottom or no button and just tap to dismiss.
-1. Clamp level scrolling to last level.
 
 # Nice to have
 
-1. Scroll viewport clips back button.
 1. Cell on page, not dark background.
-1. Home/map: Scroll. How many letters can you decrypt?
 1. Crossword Validator: Each answer included.
 1. 200 thematic levels.
+1. Hint button.
 1. Score.
 1. Layout extra word dialog.
 1. Layout already found.

@@ -2265,16 +2265,6 @@ PrefabInstance:
       propertyPath: m_Name
       value: ExtraWord
       objectReference: {fileID: 0}
-    - target: {fileID: 5188274628664960858, guid: 649b0084af69fd64cabad5467969726d,
-        type: 3}
-      propertyPath: m_IsActive
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 5188274627672811128, guid: 649b0084af69fd64cabad5467969726d,
-        type: 3}
-      propertyPath: m_IsActive
-      value: 0
-      objectReference: {fileID: 0}
     - target: {fileID: 5188274627716782017, guid: 649b0084af69fd64cabad5467969726d,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -2380,25 +2370,15 @@ PrefabInstance:
       propertyPath: m_Pivot.y
       value: 0.5
       objectReference: {fileID: 0}
-    - target: {fileID: 5188274627672811133, guid: 649b0084af69fd64cabad5467969726d,
-        type: 3}
-      propertyPath: m_AnchoredPosition.y
-      value: -77.6
-      objectReference: {fileID: 0}
-    - target: {fileID: 5188274628664960861, guid: 649b0084af69fd64cabad5467969726d,
-        type: 3}
-      propertyPath: m_AnchoredPosition.y
-      value: -77.59984
-      objectReference: {fileID: 0}
     - target: {fileID: 5412976114315624376, guid: 649b0084af69fd64cabad5467969726d,
         type: 3}
       propertyPath: m_SizeDelta.x
-      value: 100
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 5412976114315624376, guid: 649b0084af69fd64cabad5467969726d,
         type: 3}
       propertyPath: m_SizeDelta.y
-      value: 30
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 2309438701204561616, guid: 649b0084af69fd64cabad5467969726d,
         type: 3}
@@ -2410,8 +2390,7 @@ PrefabInstance:
       propertyPath: m_isInputParsingRequired
       value: 1
       objectReference: {fileID: 0}
-    m_RemovedComponents:
-    - {fileID: 5188274628837980867, guid: 649b0084af69fd64cabad5467969726d, type: 3}
+    m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 649b0084af69fd64cabad5467969726d, type: 3}
 --- !u!1001 &5280264984987928473
 PrefabInstance:
