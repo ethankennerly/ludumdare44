@@ -18,7 +18,7 @@ namespace FineGameDesign.Anagram
             for (int attempt = 0; attempt < maxAttempts; ++attempt)
             {
                 generator.crossedWords = generator.TryGenerate();
-                if (generator.allWordsFit)
+                if (generator.allWordsFit && generator.crossedWords.Count > 0)
                     return generator.crossedWords;
 
                 if (originalCrossedWords == null)

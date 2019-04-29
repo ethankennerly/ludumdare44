@@ -65,12 +65,12 @@
 1. Crossword Generator Editor: Logs 60 missing.
 1. Crossword Shuffler: Fits 60 missing crosswords.
 1. Crossword: Reset index. Fix empty lv 22 "word".
+1. Crossword Shuffler: Validates one crossed word.
 
 # TODO
 
 1. Satisfy [Jerome's comments](playtest.md#jerome-byrne):
     1. Also kinda minor but the ye olde text is kinda hard to read.  I do think that font adds some slight confusion, takes just a bit longer to visually parse it.
-    1. Minor but sometimes the next level button just spins when tapped. Second tap works though.
 
 # Nice to have
 
