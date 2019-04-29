@@ -1,5 +1,6 @@
 using FineGameDesign.Utils;
 using System.Collections.Generic;
+using UnityEngine;
 
 namespace FineGameDesign.Anagram
 {
@@ -21,15 +22,18 @@ namespace FineGameDesign.Anagram
                     return generator.crossedWords;
 
                 if (originalCrossedWords == null)
-                    originalCrossedWords = generator.crossedWords;
+                    originalCrossedWords = new List<CrossedWord>(generator.crossedWords);
 
                 if (originalWords == null)
-                    originalWords = generator.words;
+                    originalWords = new List<string>(generator.words);
 
                 Deck.ShuffleList(generator.words);
             }
+
             generator.crossedWords = originalCrossedWords;
             generator.words = originalWords;
+            Debug.LogError("Not all words fit. First word in generator was " + generator.words[0]);
+
             return generator.crossedWords;
         }
     }

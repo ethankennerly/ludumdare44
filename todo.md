@@ -64,6 +64,7 @@
 1. Main: Cell on light page; was dark board.
 1. Crossword Generator Editor: Logs 60 missing.
 1. Crossword Shuffler: Fits 60 missing crosswords.
+1. Crossword: Reset index. Fix empty lv 22 "word".
 
 # TODO
 
