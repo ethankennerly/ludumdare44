@@ -5,8 +5,8 @@ namespace FineGameDesign.Anagram
 {
     public static class CrosswordGeneratorEditor
     {
-        [MenuItem("Superpow/Play Mode/Log Missing Answer In Crossword")]
-        private static void LogMissingAnswerInCrossword()
+        [MenuItem("Superpow/Play Mode/Log Error If Missing Answer In Crossword")]
+        private static void LogErrorIfMissingAnswerInCrossword()
         {
             CrosswordGenerator generator = new CrosswordGenerator();
             var levels = AnagramLevelsController.instance.Levels;
@@ -15,11 +15,11 @@ namespace FineGameDesign.Anagram
                 var wordList = CUtils.BuildListFromString<string>(level.answers);
                 generator.SetWords(wordList);
                 generator.RTL = ConfigController.Config.isRightToLeftLanguage;
-                var crossedWords = generator.Generate();
+                var crossedWords = CrosswordShuffler.Generate(generator);
                 if (generator.allWordsFit)
                     continue;
 
-                Debug.LogWarning("Not all words fit in level word=" + level.word);
+                Debug.LogError("Not all words fit in level word=" + level.word);
             }
         }
     }

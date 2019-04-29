@@ -63,6 +63,7 @@
 1. Map: Clamps level scrolling to last level.
 1. Main: Cell on light page; was dark board.
 1. Crossword Generator Editor: Logs 60 missing.
+1. Crossword Shuffler: Fits 60 missing crosswords.
 
 # TODO
 
