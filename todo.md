@@ -61,6 +61,7 @@
 1. Scroll viewport clips back button.
 1. Map: Scroll. How many letters can you decrypt?
 1. Map: Clamps level scrolling to last level.
+1. Main: Cell on light page; was dark board.
 
 # TODO
 
@@ -70,7 +71,6 @@
 
 # Nice to have
 
-1. Cell on page, not dark background.
 1. Crossword Validator: Each answer included.
 1. 200 thematic levels.
 1. Hint button.
